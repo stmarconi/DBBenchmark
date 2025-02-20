@@ -9,5 +9,6 @@ A simple java application which executes INSERT and SELECT benchmarks on a JDBC 
 
 ### Setup & Execution
 1. Install Maven dependencies: mvn clean install
-2. Create database table (see sql scripts in /sql folder)
-3. Run the Java application
+2. Setup your database credential in application.properties
+3. Create required tables in your local database (see sql scripts in /sql folder)
+4. Run the Java application
